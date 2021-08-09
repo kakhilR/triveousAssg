@@ -1,0 +1,69 @@
+
+.App{
+  height: 100%;
+  width:80%;
+  align-items:center;
+  margin: auto;
+}
+.header{
+  align-items: center;
+  background-color:#282f64;
+  display:flex;
+  flex-direction: column;
+  height: 30px;
+  width:80%;
+  font-size: 20px;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.wrapper-class{
+  padding: 1rem;
+  border:1px solid black;
+  width:77%;
+}
+
+.editor-class{
+  background-color:lightgray;
+  padding:1rem;
+  border:1px solid #ccc;
+}
+
+.toolbar-class{
+  border:1px solid #282c34;
+}
+
+
+
+.mycard{
+  margin-bottom: 0px;
+  
+}
+.auth-card{
+  display: flex;
+  flex-direction: column;
+  /* padding:40px; */
+  text-align:center;
+  max-width: 450px;
+  margin:auto;
+  
+}
+
+.input-field input[type=text]:focus {
+  margin:auto;
+  padding: auto;
+  border-bottom: 1px solid rgba(180, 236, 238, 0) !important;
+  box-shadow: 0 1px 0 0 rgba(180, 236, 238, 0) !important;
+}
+
+
+/* .signuplink{
+  color:grey;
+} */
+
+#toast-container{
+  top:40px !important;
+  right:40px !important;
+  left:auto !important;
+}
